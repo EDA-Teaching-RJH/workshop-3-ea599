@@ -1,6 +1,6 @@
 def main():
     age = int(input("What is your age? "))
-    print(adultCheck(age))
+    print("You are an " + adultCheck(age))
 
 def adultCheck(age):
     if age >= 18:
